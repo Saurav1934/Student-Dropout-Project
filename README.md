@@ -1,54 +1,67 @@
 # 🎓 AI-Powered Student Dropout Prediction & Retention Analytics System
 
+## 🌐 Live Demo
+
+**Try the deployed application here:**
+
+**Live App:**
+https://student-dropout-project-035.streamlit.app/
+
+**GitHub Repository:**
+https://github.com/Saurav1934/Student-Dropout-Project 
+
+---
+
 ## 📌 Project Overview
 
-The **AI-Powered Student Dropout Prediction & Retention Analytics System** is a machine learning and analytics solution designed to identify university students who are at risk of dropping out.
+The **AI-Powered Student Dropout Prediction & Retention Analytics System** is a machine learning and analytics solution developed to identify university students who are at risk of dropping out.
 
 The system analyzes:
 
 * Academic performance
 * Attendance behavior
-* Financial and family background
-* Student demographics
+* Family background
+* Financial indicators
 * Semester-wise progress
 
-to predict **dropout probability**, classify students into **risk levels**, and generate **actionable recommendations** for early intervention.
+to predict **dropout probability**, classify students into **risk levels**, and recommend suitable interventions.
 
-The project combines **Machine Learning**, **Explainable AI (XAI)**, **Risk Categorization**, and an **Interactive Streamlit Dashboard** to help educational institutions improve student retention.
+The project combines:
+
+* **Machine Learning**
+* **Predictive Analytics**
+* **Explainable Insights**
+* **Risk Categorization**
+* **Interactive Dashboarding**
+
+to help educational institutions improve student retention and academic success.
 
 ---
 
 ## 🚨 Problem Statement
 
-Student dropout is a major challenge faced by universities and colleges. Traditional monitoring systems often fail to identify struggling students early enough.
+Student dropout is a major challenge faced by educational institutions. Traditional monitoring systems often fail to identify struggling students early enough.
 
-This project aims to solve this problem using:
-
-* Artificial Intelligence
-* Predictive Analytics
-* Explainable Machine Learning
-* Educational Data Mining
-
-to proactively identify students at risk and support academic intervention.
+This project uses **Artificial Intelligence and Data Analytics** to detect early warning signs and support proactive intervention.
 
 ---
 
 ## 🎯 Objectives
 
-The key objectives of this project are:
+The main objectives are:
 
-✅ Predict student dropout risk using machine learning
-✅ Analyze academic and behavioral factors affecting retention
-✅ Compare multiple ML models for performance evaluation
-✅ Categorize students into **Low**, **Medium**, and **High Risk** groups
-✅ Provide personalized intervention recommendations
-✅ Build an interactive dashboard for monitoring and prediction
+✅ Predict students likely to drop out
+✅ Analyze academic and behavioral patterns
+✅ Compare multiple ML models
+✅ Categorize students into risk groups
+✅ Generate personalized recommendations
+✅ Build an interactive analytics dashboard
 
 ---
 
 ## ✨ Key Features
 
-### 1. Student Dropout Prediction
+### 🎯 Student Dropout Prediction
 
 Predicts whether a student is likely to:
 
@@ -59,88 +72,95 @@ using machine learning algorithms.
 
 ---
 
-### 2. Multi-Model Comparison
+### 📊 Multi-Model Comparison
 
-The project evaluates and compares multiple machine learning models:
+The project compares:
 
 * Logistic Regression
 * Decision Tree
 * Random Forest
 * Gradient Boosting
-* K-Nearest Neighbors (KNN)
+* KNN
 * XGBoost
 
 to identify the best-performing model.
 
 ---
 
-### 3. Explainable AI (XAI)
+### 🧠 Explainable Insights
 
-The system explains **why a student is predicted to be at risk**.
+The system explains **why a student is at risk**.
 
-Example:
-
-**High Dropout Risk due to:**
+Example risk indicators:
 
 * Low GPA
-* Poor Attendance
-* Academic Backlogs
-* Financial Issues
+* Poor attendance
+* Academic backlogs
+* Financial difficulties
 
 ---
 
-### 4. Risk Categorization
+### 🚦 Risk Categorization
 
-Students are categorized into:
+Students are classified into:
 
 🟢 **Low Risk**
 🟡 **Medium Risk**
 🔴 **High Risk**
 
-This enables universities to prioritize interventions.
+to prioritize institutional intervention.
 
 ---
 
-### 5. Recommendation System
+### 💡 Recommendation System
 
-The dashboard generates personalized recommendations such as:
+The dashboard generates personalized interventions such as:
 
 * 📘 Academic Counseling
 * 👨‍🏫 Mentorship Support
-* 📈 Attendance Monitoring
-* 💰 Financial Aid Guidance
 * 📝 Tutoring Assistance
+* 📈 Attendance Monitoring
 
 ---
 
-### 6. Interactive Dashboard
+### 📈 Academic Performance Tracking
 
-Built using **Streamlit**, the dashboard provides:
+The system includes:
+
+* Semester-wise GPA trend analysis
+* Performance visualization
+* Student academic insights
+
+---
+
+### 🖥 Interactive Streamlit Dashboard
+
+The dashboard includes:
 
 * Student selection system
-* Dropout probability prediction
-* Risk level analysis
+* Risk prediction
+* Dropout probability
 * AI insights
-* GPA trend visualization
-* Recommendation engine
-* Student performance overview
+* Student metrics
+* GPA trend chart
+* Recommendations engine
 
 ---
 
 ## 🛠 Technologies Used
 
-| Technology   | Purpose                  |
-| ------------ | ------------------------ |
-| Python       | Programming Language     |
-| Pandas       | Data Processing          |
-| NumPy        | Numerical Analysis       |
-| Scikit-learn | Machine Learning         |
-| XGBoost      | Advanced ML Model        |
-| SHAP         | Explainable AI           |
-| Streamlit    | Dashboard Development    |
-| Matplotlib   | Data Visualization       |
-| Sweetviz     | Automated Data Profiling |
-| Joblib       | Model Serialization      |
+| Technology   | Purpose               |
+| ------------ | --------------------- |
+| Python       | Core Programming      |
+| Pandas       | Data Processing       |
+| NumPy        | Numerical Analysis    |
+| Scikit-learn | Machine Learning      |
+| XGBoost      | Advanced Prediction   |
+| SHAP         | Explainable AI        |
+| Streamlit    | Dashboard Development |
+| Matplotlib   | Visualization         |
+| Sweetviz     | Data Profiling        |
+| Joblib       | Model Serialization   |
 
 ---
 
@@ -150,12 +170,11 @@ Built using **Streamlit**, the dashboard provides:
 2. Data Cleaning & Preprocessing
 3. Exploratory Data Analysis (EDA)
 4. Feature Engineering
-5. Data Encoding
-6. Model Training
-7. Multi-Model Comparison
+5. Model Training
+6. Multi-Model Comparison
+7. Model Evaluation
 8. Risk Categorization
-9. Explainable AI Analysis
-10. Dashboard Deployment
+9. Dashboard Deployment
 
 ---
 
@@ -174,37 +193,10 @@ The final model was selected based on balanced performance for identifying at-ri
 
 ---
 
-## 🖥 Dashboard Preview
-
-The Streamlit dashboard includes:
-
-### Student Overview
-
-* GPA
-* Attendance %
-* Backlogs
-* Fee Status
-
-### Prediction Result
-
-* Dropout Probability
-* Risk Level
-* AI-Based Insights
-
-### Recommendations
-
-* Personalized intervention strategies
-
-### Academic Trend
-
-* Semester-wise GPA visualization
-
----
-
 ## 📂 Project Structure
 
-```text id="rr2s95"
-student_dropout_prediction/
+```text
+Student-Dropout-Project/
 
 │── data/
 │   ├── student_dropout.csv
@@ -219,6 +211,7 @@ student_dropout_prediction/
 
 │── app.py
 │── requirements.txt
+│── runtime.txt
 │── README.md
 ```
 
@@ -226,64 +219,64 @@ student_dropout_prediction/
 
 ## ⚙️ Installation
 
-### 1. Clone Repository
+### Clone Repository
 
-```bash id="2r6pbv"
-git clone <repository-url>
+```bash
+git clone https://github.com/Saurav1934/Student-Dropout-Project.git
 ```
 
-### 2. Navigate to Project Folder
+### Navigate to Project Folder
 
-```bash id="j9v0d1"
-cd student_dropout_prediction
+```bash
+cd Student-Dropout-Project
 ```
 
-### 3. Create Conda Environment
+### Create Environment
 
-```bash id="9s1hzt"
+```bash
 conda create -n student_dropout python=3.11
 conda activate student_dropout
 ```
 
-### 4. Install Dependencies
+### Install Dependencies
 
-```bash id="1k2r7f"
+```bash
 pip install -r requirements.txt
 ```
 
 ---
 
-## ▶️ Run the Project
+## ▶️ Run Locally
 
-Launch the Streamlit dashboard:
+Start Streamlit:
 
-```bash id="1g7ptf"
+```bash
 streamlit run app.py
 ```
 
 Open browser:
 
-```text id="7d1xnm"
+```text
 http://localhost:8501
 ```
 
 ---
 
-## 🔮 Future Scope
-
-Possible future enhancements:
+## 🔮 Future Improvements
 
 * Real-time student monitoring
 * Deep learning integration
 * University ERP integration
-* Automated intervention alerts
-* Multi-university deployment
-* Cloud deployment
+* Automated alerts for at-risk students
+* Cloud deployment enhancements
 
 ---
 
 ## 👨‍💻 Author
 
-**Saurav**
+**Saurav Ray**
+B.Tech Computer Science Engineering
+Lovely Professional University
 
-AI-Powered Student Dropout Prediction & Retention Analytics System
+**LinkedIn:**
+https://linkedin.com/in/sauravray05
